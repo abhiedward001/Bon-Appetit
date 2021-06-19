@@ -6,9 +6,9 @@ import Mealitem from "./Mealitem/Mealitem";
 const DUMMY_MEALS = [
     {
         id: 'm1',
-        name: 'Sushi',
-        description: 'Finest fish and veggies',
-        price: 22.99,
+        name: 'Chicken Biryani',
+        description: 'Tender Chicken pieces are dum pukht with aromatic rice & exuberant bhuna spices',
+        price: 325,
     },
     {
         id: 'm2',
@@ -36,7 +36,7 @@ const Availablemeal = () => {
 
     const data = DUMMY_MEALS.map((meal)=> 
     <li>
-        <Mealitem key={meal.id} title={meal.name} description={meal.description} price={meal.price}/>
+        <Mealitem key={meal.id} id={meal.id}title={meal.name} description={meal.description} price={meal.price}/>
     </li>
     );
 
