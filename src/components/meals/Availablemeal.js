@@ -12,21 +12,21 @@ const DUMMY_MEALS = [
     },
     {
         id: 'm2',
-        name: 'Schnitzel',
-        description: 'A german specialty!',
-        price: 16.5,
+        name: 'Veg Pulav',
+        description: `Kadai Paneer is a vibrant, tangy, spiced paneer dish that can brighten up your day any time. `,
+        price: 200,
     },
     {
         id: 'm3',
-        name: 'Barbecue Burger',
-        description: 'American, raw, meaty',
-        price: 12.99,
+        name: ' Veggie Aalu tikki Burger',
+        description: 'The olive, walnuts, and lentils create the perfect texture for this flavor-packed burger',
+        price: 180,
     },
     {
         id: 'm4',
-        name: 'Green Bowl',
+        name: 'Veg Fried rice',
         description: 'Healthy...and green...',
-        price: 18.99,
+        price: 120,
     },
 ];
 
