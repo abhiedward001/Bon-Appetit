@@ -8,9 +8,10 @@ import Cartcontext from '../../store/Cart-context';
      const numberofcartitems= cartctx.items.reduce((CurNum,item)=>{
          return CurNum+item.qty;
      },0)
+     const btnclass=`${classes.button} ${classes.bump}`
     return (
      <>
-     <button className={classes.button} onClick={props.onclk}>
+     <button className={btnclass} onClick={props.onclk}>
          <span className={classes.icon}><Headercart_icon></Headercart_icon></span>
          <span>Your Cart</span>
          <span className={classes.badge}>&nbsp;{numberofcartitems}</span>
